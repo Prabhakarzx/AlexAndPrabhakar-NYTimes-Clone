@@ -1,0 +1,92 @@
+*{
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
+body{
+    margin:0;
+}
+
+header{
+    display: flex;
+    background-color: aqua;
+    padding: 4px 15px 2px 15px;
+}
+
+.header-content{
+    background-color: saddlebrown;
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+
+.header-icons{
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-size: 14.25px;
+}
+
+.header-icons i{
+    color: #333;
+    height: 16px;
+    width: 16px;
+    padding: 8px 9px 9px;
+    
+}
+
+.cosmos{
+   display: inline;
+}
+
+.logo{
+    height:35px;
+    width: 210px;
+}
+
+.header-right{
+    height: 10vh;
+    align-items: center;
+}
+
+.subs{
+    cursor: pointer;
+     white-space: nowrap;
+    vertical-align: middle;
+    background-color: rgb(86, 123, 149);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 0.6s ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+    border-image: initial;
+    padding: 11px 12px 8px;
+
+}
+
+
+ /* main */
+main{
+    background-color: pink;
+    display: flex;
+    height: -webkit-fill-available;
+    justify-content: center;
+}
+.content{
+    background-color: greenyellow;
+    display: inline-flex;
+    width: 160vh;
+    justify-content: center;
+}
+/* 
+.theory{
+    width: 100vh;
+    display: flex;
+    background-color: red;
+
+
+} */
