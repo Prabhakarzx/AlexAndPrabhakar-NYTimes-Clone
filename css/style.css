@@ -24,7 +24,6 @@ header{
 
 .header-icons{
     color: #000;
-    display: flex;
     align-items: center;
     font-size: 14.25px;
 }
@@ -48,31 +47,25 @@ header{
 
 .header-right{
     display: flex;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-between;
-    
-   
+    align-items: center;    
 }
 
 .subs{
     cursor: pointer;
      white-space: nowrap;
-    vertical-align: middle;
     background-color: rgb(86, 123, 149);
     color: rgb(255, 255, 255);
     font-size: 11px;
     line-height: 11px;
     font-weight: 700;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     border-radius: 3px;
-    transition: all 0.6s ease 0s;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(50, 104, 145);
     border-image: initial;
     padding: 11px 12px 8px;
+    margin-right: 7px;
 
 }
 
@@ -88,11 +81,11 @@ main{
 }
 .content{
     background-color: greenyellow;
-    display: inline-flex;
     width: 160vh;
     justify-content: center;
     margin-top: 5%;
     flex-direction: column;
+    display: flex;
     
 }
 .mainContentHeading{
