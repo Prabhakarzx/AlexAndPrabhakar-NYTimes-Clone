@@ -5,17 +5,21 @@ body{
     margin:0;
 }
 
-header{
+/* header{
     display: flex;
     background-color: aqua;
     padding: 4px 15px 2px 15px;
-}
 
-.header-content{
+    
+} */
+
+header{
     background-color: saddlebrown;
     display: flex;
-    width: -webkit-fill-available;
+    width: 98%;
     justify-content: space-between;
+    position: fixed;
+    padding: 4px 15px 2px 15px;
 }
 
 .header-icons{
@@ -43,8 +47,12 @@ header{
 }
 
 .header-right{
+    display: flex;
     height: 10vh;
     align-items: center;
+    justify-content: space-between;
+    
+   
 }
 
 .subs{
@@ -74,19 +82,31 @@ main{
     background-color: pink;
     display: flex;
     height: -webkit-fill-available;
+
     justify-content: center;
+    
 }
 .content{
     background-color: greenyellow;
     display: inline-flex;
     width: 160vh;
     justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+    
 }
-/* 
-.theory{
-    width: 100vh;
-    display: flex;
-    background-color: red;
+.mainContentHeading{
+    padding-top: 5%;
+    margin-top: 10%;
+}
 
+.mainArticleFig{
+    width: 100%;
+    height: 100%;
+}
 
-} */
+.smokingGunImage{
+  
+    width: inherit;
+    height: 100%;
+}
