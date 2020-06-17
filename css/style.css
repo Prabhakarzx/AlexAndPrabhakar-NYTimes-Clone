@@ -167,6 +167,10 @@ main {
     line-height: 1.875rem;
     margin-bottom: 0.9375rem;
     color: #333333;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+.paragraphs h1,h2,h3,h4,h5{
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 .paragraphs a {
@@ -187,4 +191,11 @@ main {
 
     align-items: center;
     text-align: center;
+}
+
+.iframeNYT{
+    frameborder:"0";
+    scrolling:"no";
+    width:"100%";
+    height:"752";
 }
