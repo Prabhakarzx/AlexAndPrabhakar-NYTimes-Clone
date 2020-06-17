@@ -202,21 +202,20 @@ main {
 .moreArticles{
     display: flex;
     justify-content: space-between;
-    width: 80%;
     margin-left: 80px;
+    width: 89%;
 }
 
-.leftColumn, .rightColumn{
-    border-top: 1px solid #333333
-}
-.leftColumn{
+.leftColumn,.editors{
     width: 855px;
+    border-top: 1px solid #333333
 }
 
 .figWrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between  ;
+
 }
 .figure{
     max-width: 272px;
@@ -240,7 +239,26 @@ main {
 
 }
 
+
 .figure p:nth-child(3){
     font-size: 11px;
     color: #999999;
+}
+
+.editors,aside h4 {
+color: #333333
+}
+
+
+.rightColumn{
+    width: 315px;
+    border-top: 1px solid #333333;
+}
+
+.rightColumn  p{
+    border-top: 1px solid #e2e2e2;
+    padding-top: 9px;
+    font-size: 1.15rem;
+    line-height: 1.4375rem;
+    color: #121212;
 }
