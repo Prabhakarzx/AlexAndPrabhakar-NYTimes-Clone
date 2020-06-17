@@ -122,6 +122,10 @@ main {
     font-weight: bold;
 }
 
+.authorInfo a:hover{
+    text-decoration: none;
+}
+
 .articleText{
     width:600px;
     display: flex;
@@ -146,17 +150,35 @@ main {
     background-color: #eee;
     border: 7px #eee solid;
     border-radius: 100%;
+    color:black;
 }
-.bkg{
-    border: none;
-    background-color:white;
+.icons a:hover{
+  
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc; 
+   
 }
-
 
 .paragraphs p{
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 0.9375rem;
     color: #333333;
-
+}
+.paragraphs a{
+    color: #326891;
+}
+.paragraphs a:hover{
+    text-decoration: none;
+}
+.thanksNYtLine{
+    width: 72px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin: 0px auto 18px;
+}
+.thanksNYT{
+    
+    align-items: center;
+    text-align: center;
 }
