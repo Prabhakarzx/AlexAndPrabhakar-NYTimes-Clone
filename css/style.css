@@ -1,5 +1,5 @@
 * {
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
 
 }
 
@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: white;
-    box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
     border-bottom: 1px solid #e2e2e2;
     display: flex;
     width: 98%;
@@ -80,13 +80,13 @@ main {
     width: 945px;
     justify-content: center;
     align-items: center;
-    margin-top:42px;
+    margin-top: 42px;
 
 }
 
 .mainContentHeading {
     width: 600px;
-    margin-top:60px;
+    margin-top: 60px;
     font-size: 2.5rem;
     line-height: 3rem;
     font-style: italic;
@@ -98,43 +98,44 @@ main {
     height: 531px;
 }
 
-.figCaption{
-    color:#666666;
+.figCaption {
+    color: #666666;
     margin-top: 10px;
     width: 700px;
     font-size: 15px;
     align-self: flex-start;
 }
 
-.figCaption span{
+.figCaption span {
     color: #888888;
     font-size: 13px;
 }
 
-.authorName{
+.authorName {
     color: #000;
 }
 
-.authorInfo, .authorInfo a{
+.authorInfo,
+.authorInfo a {
     align-self: flex-start;
     color: #333333;
     font-size: 15px;
     font-weight: bold;
 }
 
-.authorInfo a:hover{
+.authorInfo a:hover {
     text-decoration: none;
 }
 
-.articleText{
-    width:600px;
+.articleText {
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
 }
 
-.contIcons{
+.contIcons {
     display: flex;
     justify-content: space-between;
     width: 600px;
@@ -144,41 +145,46 @@ main {
     color: #333333;
 }
 
-.icons i{
+.icons i {
     font-size: 14px;
     margin-right: 12px;
     background-color: #eee;
     border: 7px #eee solid;
     border-radius: 100%;
-    color:black;
-}
-.icons a:hover{
-  
-    border-radius: 100%;
-    background-color: #fff;
-    border: 1px solid #ccc; 
-   
+    color: black;
 }
 
-.paragraphs p{
+.icons a:hover {
+
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+
+.paragraphs p {
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 0.9375rem;
     color: #333333;
 }
-.paragraphs a{
+
+.paragraphs a {
     color: #326891;
 }
-.paragraphs a:hover{
+
+.paragraphs a:hover {
     text-decoration: none;
 }
-.thanksNYtLine{
+
+.thanksNYtLine {
     width: 72px;
     border-bottom: 1px solid rgb(204, 204, 204);
     margin: 0px auto 18px;
 }
-.thanksNYT{
-    
+
+.thanksNYT {
+
     align-items: center;
     text-align: center;
 }
