@@ -287,6 +287,7 @@ aside h4 {
 .rightColumn {
   width: 315px;
   border-top: 1px solid #333333;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
 .rightColumn p {
@@ -295,4 +296,11 @@ aside h4 {
   font-size: 1.15rem;
   line-height: 1.4375rem;
   color: #121212;
+  margin-left: 10px;
+  font: bold;
+}
+
+.rightColumn h4{
+  margin-left: 10px;
+
 }
