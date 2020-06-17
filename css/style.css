@@ -149,11 +149,6 @@ main {
   color: black;
 }
 
-.icons a:hover {
-  border-radius: 100%;
-  background-color: #fff;
-  border: 1px solid #ccc;
-}
 
 .paragraphs p {
   font-size: 1.25rem;
@@ -196,6 +191,14 @@ h5 {
   color: rgb(50, 104, 145);
   font-weight: bold;
   font-size: 15px;
+}
+
+.paragraphs a{
+    color: rgb(50, 104, 145);
+    
+}
+.paragraphs a:hover{
+    text-decoration: none;
 }
 
 .embedded {
