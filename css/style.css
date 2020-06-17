@@ -15,7 +15,9 @@ body {
 } */
 
 header {
-    background-color: saddlebrown;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+    border-bottom: 1px solid #e2e2e2;
     display: flex;
     width: 98%;
     justify-content: space-between;
@@ -88,12 +90,15 @@ main {
     margin-top: 5%;
     flex-direction: column;
     display: flex;
-
+    align-items: center;
 }
 
 .mainContentHeading {
     padding-top: 5%;
     margin-top: 10%;
+    width: 600px;
+    display: flex;
+    
 }
 
 .mainArticleFig {
@@ -106,4 +111,20 @@ main {
 .smokingGunImage {
     width: inherit;
     height: 100%;
+}
+.anchortxt{
+    color: #888888;
+    font-size: 13px;
+}
+.figCaption{
+    color:#666666;
+    margin-top: 10px;
+    width: 700px;
+    font-size: 15px;
+}
+.authorName{
+    color: #000;
+}
+.authorInfo{
+    display: flex;
 }
