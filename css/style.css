@@ -127,12 +127,29 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-top: 30px;
 }
 
 .contIcons{
     display: flex;
     justify-content: space-between;
+    width: 600px;
+    height: 35px;
+    font-size: 13px;
+    align-items: center;
+    color: #333333;
+}
+
+.icons i{
+    font-size: 14px;
+    margin-right: 12px;
+    background-color: #eee;
+    border: 7px #eee solid;
+    border-radius: 100%;
+}
+.bkg{
+    border: none;
+    background-color:white;
 }
 
 
