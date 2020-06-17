@@ -1,8 +1,9 @@
-*{
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+* {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
 }
 
 /* header{
@@ -13,7 +14,7 @@ body{
     
 } */
 
-header{
+header {
     background-color: saddlebrown;
     display: flex;
     width: 98%;
@@ -22,37 +23,37 @@ header{
     padding: 4px 15px 2px 15px;
 }
 
-.header-icons{
+.header-icons {
     color: #000;
     align-items: center;
     font-size: 14.25px;
 }
 
-.header-icons i{
+.header-icons i {
     color: #333;
     height: 16px;
     width: 16px;
     padding: 8px 9px 9px;
-    
+
 }
 
-.cosmos{
-   display: inline;
+.cosmos {
+    display: inline;
 }
 
-.logo{
-    height:35px;
+.logo {
+    height: 35px;
     width: 210px;
 }
 
-.header-right{
+.header-right {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 
-.subs{
+.subs {
     cursor: pointer;
-     white-space: nowrap;
+    white-space: nowrap;
     background-color: rgb(86, 123, 149);
     color: rgb(255, 255, 255);
     font-size: 11px;
@@ -70,36 +71,39 @@ header{
 }
 
 
- /* main */
-main{
+/* main */
+main {
     background-color: pink;
     display: flex;
     height: -webkit-fill-available;
 
     justify-content: center;
-    
+
 }
-.content{
+
+.content {
     background-color: greenyellow;
     width: 160vh;
     justify-content: center;
     margin-top: 5%;
     flex-direction: column;
     display: flex;
-    
+
 }
-.mainContentHeading{
+
+.mainContentHeading {
     padding-top: 5%;
     margin-top: 10%;
 }
 
-.mainArticleFig{
+.mainArticleFig {
     width: 100%;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.smokingGunImage{
-  
+.smokingGunImage {
     width: inherit;
     height: 100%;
 }
