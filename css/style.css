@@ -162,7 +162,7 @@ main {
 
 }
 
-.paragraphs p {
+.paragraphs p{
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 0.9375rem;
@@ -192,13 +192,39 @@ main {
     text-align: center;
 }
 
-.iframeNYT{
-    frameborder:"0";
-    scrolling:"no";
-    width:"100%";
-    height:"752";
+.embedded{
+    width: 600px;
+height:315px;
+margin-top: 30px;
 }
 
+.embCaps{
+    margin-top: 7px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666666;
+}
+.embCaps span{
+    font-size: 13px;
+    color: #888888;
+    margin-left: 5px;
+}
+
+.bicep{
+    width:600px;
+    height:400px;
+    margin-top:35px;
+}
+
+.bicepCaps p{
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #666666   ;
+}
+.bicepCaps span{
+    font-size: 13px;
+    color: #888888   ;
+}
 .moreArticles{
     display: flex;
     justify-content: space-between;
@@ -238,7 +264,6 @@ main {
     margin-bottom: 0px;
 
 }
-
 
 .figure p:nth-child(3){
     font-size: 11px;
