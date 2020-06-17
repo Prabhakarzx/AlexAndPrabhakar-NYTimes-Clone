@@ -1,289 +1,294 @@
 * {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
-    border-bottom: 1px solid #e2e2e2;
-    display: flex;
-    width: 98%;
-    justify-content: space-between;
-    position: fixed;
-    padding: 4px 15px 2px 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+  position: fixed;
+  padding: 4px 15px 2px 15px;
 }
 
 .header-icons {
-    color: #000;
-    align-items: center;
-    font-size: 14.25px;
+  color: #000;
+  align-items: center;
+  font-size: 14.25px;
 }
 
 .header-icons i {
-    color: #333;
-    height: 16px;
-    width: 16px;
-    padding: 8px 9px 9px;
-
+  color: #333;
+  height: 16px;
+  width: 16px;
+  padding: 8px 9px 9px;
 }
 
 .cosmos {
-    display: inline;
+  display: inline;
 }
 
 .logo {
-    height: 35px;
-    width: 210px;
+  height: 35px;
+  width: 210px;
 }
 
 .header-right {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .subs {
-    cursor: pointer;
-    white-space: nowrap;
-    background-color: rgb(86, 123, 149);
-    color: rgb(255, 255, 255);
-    font-size: 11px;
-    line-height: 11px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    border-radius: 3px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(50, 104, 145);
-    border-image: initial;
-    padding: 11px 12px 8px;
-    margin-right: 7px;
-
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: rgb(86, 123, 149);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  padding: 11px 12px 8px;
+  margin-right: 7px;
 }
-
 
 /* main */
 main {
-    /* background-color: pink; */
-    display: flex;
-    justify-content: center;
-
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
 }
 
 .content {
-    /* background-color: greenyellow; */
-    display: flex;
-    flex-direction: column;
-    width: 945px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 42px;
-
+  /* background-color: greenyellow; */
+  display: flex;
+  flex-direction: column;
+  width: 945px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 42px;
 }
 
 .mainContentHeading {
-    width: 600px;
-    margin-top: 60px;
-    font-size: 2.5rem;
-    line-height: 3rem;
-    font-style: italic;
-    margin-bottom: 23px;
+  width: 600px;
+  margin-top: 60px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-style: italic;
+  margin-bottom: 23px;
 }
 
 .smokingGunImage {
-    width: 100%;
-    height: 531px;
+  width: 100%;
+  height: 531px;
 }
 
 .figCaption {
-    color: #666666;
-    margin-top: 10px;
-    width: 700px;
-    font-size: 15px;
-    align-self: flex-start;
+  color: #666666;
+  margin-top: 10px;
+  width: 700px;
+  font-size: 15px;
+  align-self: flex-start;
 }
 
 .figCaption span {
-    color: #888888;
-    font-size: 13px;
+  color: #888888;
+  font-size: 13px;
 }
 
 .authorName {
-    color: #000;
+  color: #000;
 }
 
 .authorInfo,
 .authorInfo a {
-    align-self: flex-start;
-    color: #333333;
-    font-size: 15px;
-    font-weight: bold;
+  align-self: flex-start;
+  color: #333333;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .authorInfo a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .articleText {
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .contIcons {
-    display: flex;
-    justify-content: space-between;
-    width: 600px;
-    height: 35px;
-    font-size: 13px;
-    align-items: center;
-    color: #333333;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 35px;
+  font-size: 13px;
+  align-items: center;
+  color: #333333;
 }
 
 .icons i {
-    font-size: 14px;
-    margin-right: 12px;
-    background-color: #eee;
-    border: 7px #eee solid;
-    border-radius: 100%;
-    color: black;
+  font-size: 14px;
+  margin-right: 12px;
+  background-color: #eee;
+  border: 7px #eee solid;
+  border-radius: 100%;
+  color: black;
 }
 
 .icons a:hover {
-    border-radius: 100%;
-    background-color: #fff;
-    border: 1px solid #ccc;
-
+  border-radius: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
 }
 
-.paragraphs p{
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    margin-bottom: 0.9375rem;
-    color: #333333;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+.paragraphs p {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 0.9375rem;
+  color: #333333;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
-.paragraphs h1,h2,h3,h4,h5{
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-}
-
-.paragraphs a {
-    color: #326891;
+.paragraphs h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 .paragraphs a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .thanksNYtLine {
-    width: 72px;
-    border-bottom: 1px solid rgb(204, 204, 204);
-    margin: 0px auto 18px;
+  border: 0.5px solid rgb(204, 204, 204);
+  width: 15%;
 }
 
 .thanksNYT {
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.embedded{
-    width: 600px;
-height:315px;
-margin-top: 30px;
+.thanksNYT h3 {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+.thanksNYT a {
+  margin-bottom: 18.72px;
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+  font-weight: bold;
+  font-size: 15px;
 }
 
-.embCaps{
-    margin-top: 7px;
-    font-size: 0.9375rem;
-    line-height: 1.25rem;
-    color: #666666;
-}
-.embCaps span{
-    font-size: 13px;
-    color: #888888;
-    margin-left: 5px;
+.embedded {
+  width: 600px;
+  height: 315px;
+  margin-top: 30px;
 }
 
-.bicep{
-    width:600px;
-    height:400px;
-    margin-top:35px;
+.embCaps {
+  margin-top: 7px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666666;
+}
+.embCaps span {
+  font-size: 13px;
+  color: #888888;
+  margin-left: 5px;
 }
 
-.bicepCaps p{
-    font-size: 15px;
-    margin-bottom: 0px;
-    color: #666666   ;
-}
-.bicepCaps span{
-    font-size: 13px;
-    color: #888888   ;
-}
-.moreArticles{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 80px;
-    width: 89%;
+.bicep {
+  width: 600px;
+  height: 400px;
+  margin-top: 35px;
 }
 
-.leftColumn,.editors{
-    width: 855px;
-    border-top: 1px solid #333333
+.bicepCaps p {
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #666666;
+}
+.bicepCaps span {
+  font-size: 13px;
+  color: #888888;
+}
+.moreArticles {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  width: 89%;
 }
 
-.figWrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between  ;
-
-}
-.figure{
-    max-width: 272px;
-}
-.figure img{
-    width: 272px;
-    height: 181px;
+.leftColumn,
+.editors {
+  width: 855px;
+  border-top: 1px solid #333333;
 }
 
-.figure p:nth-child(1){
-   text-align: right;
-   font-size: 10px;
-   margin-top:3px;
-   color: #999999;
+.figWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.figure {
+  max-width: 272px;
+}
+.figure img {
+  width: 272px;
+  height: 181px;
 }
 
-.figure p:nth-child(2){
-    font-size: 18px;
-    margin-top:3px;
-    margin-bottom: 0px;
-
+.figure p:nth-child(1) {
+  text-align: right;
+  font-size: 10px;
+  margin-top: 3px;
+  color: #999999;
 }
 
-.figure p:nth-child(3){
-    font-size: 11px;
-    color: #999999;
+.figure p:nth-child(2) {
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 0px;
 }
 
-.editors,aside h4 {
-color: #333333
+.figure p:nth-child(3) {
+  font-size: 11px;
+  color: #999999;
 }
 
-
-.rightColumn{
-    width: 315px;
-    border-top: 1px solid #333333;
+.editors,
+aside h4 {
+  color: #333333;
 }
 
-.rightColumn  p{
-    border-top: 1px solid #e2e2e2;
-    padding-top: 9px;
-    font-size: 1.15rem;
-    line-height: 1.4375rem;
-    color: #121212;
+.rightColumn {
+  width: 315px;
+  border-top: 1px solid #333333;
+}
+
+.rightColumn p {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 9px;
+  font-size: 1.15rem;
+  line-height: 1.4375rem;
+  color: #121212;
 }
