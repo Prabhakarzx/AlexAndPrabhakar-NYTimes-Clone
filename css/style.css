@@ -71,6 +71,7 @@ main {
     /* background-color: pink; */
     display: flex;
     justify-content: center;
+
 }
 
 .content {
@@ -155,7 +156,6 @@ main {
 }
 
 .icons a:hover {
-
     border-radius: 100%;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -188,7 +188,6 @@ main {
 }
 
 .thanksNYT {
-
     align-items: center;
     text-align: center;
 }
@@ -198,4 +197,50 @@ main {
     scrolling:"no";
     width:"100%";
     height:"752";
+}
+
+.moreArticles{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 80px;
+}
+
+.leftColumn, .rightColumn{
+    border-top: 1px solid #333333
+}
+.leftColumn{
+    width: 855px;
+}
+
+.figWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.figure{
+    max-width: 272px;
+}
+.figure img{
+    width: 272px;
+    height: 181px;
+}
+
+.figure p:nth-child(1){
+   text-align: right;
+   font-size: 10px;
+   margin-top:3px;
+   color: #999999;
+}
+
+.figure p:nth-child(2){
+    font-size: 18px;
+    margin-top:3px;
+    margin-bottom: 0px;
+
+}
+
+.figure p:nth-child(3){
+    font-size: 11px;
+    color: #999999;
 }
