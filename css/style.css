@@ -226,9 +226,10 @@ h5 {
 }
 
 .bicepCaps p {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 0px;
   color: #666666;
+    line-height: 1.25rem;
 }
 .bicepCaps span {
   font-size: 13px;
