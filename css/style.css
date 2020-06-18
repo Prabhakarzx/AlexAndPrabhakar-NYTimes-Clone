@@ -377,11 +377,33 @@ aside h4 {
 }
 .footerAside{
   border-left: 1px solid #999999;
-  padding-left: 10px;
+  
   margin-left: 60px;
 }
 
 .footerAside h5{
   margin-top: 0px;
   padding-top: 0px;
+}
+
+.footerAside ul{
+  margin-left: 5px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+.footerAside li{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+align-items: center;
+
+
+  
+}
+.footerAside a{
+  text-decoration: none;
+  color: #000;
+}
+.footerAside a:hover{
+  text-decoration: underline;
 }
