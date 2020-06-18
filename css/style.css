@@ -149,7 +149,6 @@ main {
   color: black;
 }
 
-
 .paragraphs p {
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -163,6 +162,13 @@ h3,
 h4,
 h5 {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.theory{
+  width:100%;
+  height: 752px;
+  border: none; 
+  overflow: hidden;
 }
 
 .paragraphs a:hover {
@@ -193,18 +199,18 @@ h5 {
   font-size: 15px;
 }
 
-.paragraphs a{
-    color: rgb(50, 104, 145);
-    
+.paragraphs a {
+  color: rgb(50, 104, 145);
 }
-.paragraphs a:hover{
-    text-decoration: none;
+.paragraphs a:hover {
+  text-decoration: none;
 }
 
 .embedded {
   width: 600px;
   height: 315px;
   margin-top: 30px;
+  border:none;
 }
 
 .embCaps {
@@ -229,28 +235,26 @@ h5 {
   font-size: 16px;
   margin-bottom: 0px;
   color: #666666;
-    line-height: 1.25rem;
+  line-height: 1.25rem;
 }
 .bicepCaps span {
   font-size: 13px;
   color: #888888;
 }
 
-.version{
+.version {
   font-size: 11px;
   color: #666666;
   margin-bottom: 25px;
 }
 
-.version a{
+.version a {
   text-decoration: underline;
   cursor: pointer;
 }
-.version a:hover{
+.version a:hover {
   text-decoration: none;
 }
-
-
 
 .moreArticles {
   display: flex;
@@ -265,7 +269,7 @@ h5 {
   border-top: 1px solid #333333;
 }
 
-.figWrapper  {
+.figWrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -275,10 +279,11 @@ h5 {
   cursor: pointer;
 }
 
-.figWrapper p:hover,.rightColumn p:hover{
-  color: #999999; 
+.figWrapper p:hover,
+.rightColumn p:hover {
+  color: #999999;
 }
-.rightColumn a{
+.rightColumn a {
   text-decoration: none;
   color: #000;
 }
@@ -320,131 +325,126 @@ aside h4 {
 .rightColumn p {
   border-top: 1px solid #e2e2e2;
   padding-top: 9px;
-  font-size: 1.15rem;
+  font-size: 1.1875rem;
   line-height: 1.4375rem;
   color: #121212;
   margin-left: 10px;
   font: bold;
   cursor: pointer;
-
 }
 
-.rightColumn h4{
+.rightColumn h4 {
   margin-left: 10px;
-
 }
 
-.footerSection{
+.footerSection {
   display: block;
   margin-top: 30px;
   margin-left: 73px;
 }
 
-.footerBorderLine{
-    display: block;
-    border-bottom: 1px solid #e2e2e2;
-    border-top: 2px solid #e2e2e2; 
-    height: 1px;
-    margin-top: 0;
-    width: 1200px;
-    margin-left: 0px;
-    
+.footerBorderLine {
+  display: block;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  height: 1px;
+  margin-top: 0;
+  width: 1200px;
+  margin-left: 0px;
 }
-.footerLogo{
+.footerLogo {
   display: block;
   margin-left: 0px;
   margin-top: 3px;
   margin-bottom: 10px;
-  
 }
 
-.logoFooter{
+.logoFooter {
   width: 184px;
   height: 33px;
 }
 
-.gridContainer{
+.gridContainer {
   display: inline-grid;
   grid-template-columns: auto auto auto auto auto;
   padding: 10px;
   grid-column-gap: 110px;
   grid-row-gap: 10px;
-
 }
 
-.gridTitles, aside li h5{
+.gridTitles,
+aside li h5 {
   color: rgb(51, 51, 51);
-    font-size: 13px;
-    font-weight: 700;
-    margin-bottom: 4px;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-.gridItems{
+.gridItems {
   font-size: 13px;
   cursor: pointer;
 }
 
-.footerContainer{
+.footerContainer {
   display: flex;
   flex-wrap: wrap;
 }
-.footerAside{
+.footerAside {
   border-left: 1px solid rgb(226, 226, 226);
   margin-top: 12px;
   margin-left: 60px;
 }
 
-.footerAside h5{
+.footerAside h5 {
   margin-top: 0px;
   padding-top: 0px;
 }
 
-.footerAside ul{
+.footerAside ul {
   margin-left: 12px;
   padding-left: 0px;
   list-style-type: none;
   margin-top: 0;
 }
-.footerAside li{
+.footerAside li {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
-.footerAside li strong{
-  margin-left:5px;
+.footerAside li strong {
+  margin-left: 5px;
 }
 
-.footerAside li p{
+.footerAside li p {
   font-size: 11px;
   margin-top: 7px;
   margin-bottom: 7px;
   cursor: pointer;
 }
 
-.news{
-  margin-top:15px;
+.news {
+  margin-top: 15px;
   margin-left: 15px;
   font-size: 11px;
 }
 
-.news li{
-  margin-top:7px;
+.news li {
+  margin-top: 7px;
 }
 
-.mobile{
+.mobile {
   border-top: 1px solid rgb(226, 226, 226);
   padding-top: 15px;
   font-size: 11px;
   padding-top: 0px;
 }
 
-.mobile li{
-  margin-top:7px;
-
+.mobile li {
+  margin-top: 7px;
 }
 
-.footerAside a{
+.footerAside a {
   text-decoration: none;
   color: #000;
   margin-top: 7px;
@@ -453,29 +453,28 @@ aside h4 {
 .footerAside a:hover,
 .gridItems a:hover,
 .footerAside li p:hover,
-.info a:hover{
+.info a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.info{
+.info {
   border-top: 1px solid rgb(226, 226, 226);
   width: 1200px;
-  display: flex;  
+  display: flex;
   list-style-type: none;
   margin-bottom: 20px;
 }
 
-.info li{
+.info li {
   margin-left: 14px;
   margin-top: 10px;
 }
 
-
-.info a{
+.info a {
   color: #666;
   font-size: 11px;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .editorsPickAside{
