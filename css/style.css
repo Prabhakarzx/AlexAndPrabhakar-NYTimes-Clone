@@ -453,7 +453,8 @@ aside li h5 {
 .footerAside a:hover,
 .gridItems a:hover,
 .footerAside li p:hover,
-.info a:hover {
+.info a:hover,
+.singlePostEditorsPickSide a:hover{
   text-decoration: underline;
   cursor: pointer;
 }
@@ -500,9 +501,15 @@ transform: scale(0.6);
 }
 .singlePostEditorsPickSide{
   display: flex;
+  width: 350px;
+}
+.singlePostEditorsPickSide a{
+  text-decoration: none;
+  color:#000;
+  font-size: 20px;
 }
 .singlePostEditorsPickSide > div{
-  width: 350px;
+  
   line-height: 30px;
   font-size: 20px;
 }
@@ -510,12 +517,15 @@ transform: scale(0.6);
 .editorPickPostImg{
   display: block;
   margin: 20px 30px 0 0;
-    width: 200px;
+    width: 150px;
     object-fit: contain;
     align-self: flex-start;
 }
 
 .editorsPicsSideTitle{
-flex: 1 1 auto;
 margin: auto 0 auto 10px;
+font-size: 20px;
+}
+.titleSideBar{
+  font-size: 20px;
 }
