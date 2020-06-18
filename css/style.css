@@ -255,7 +255,7 @@ h5 {
 .moreArticles {
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
+  margin-left: 73px;
   width: 89%;
 }
 
@@ -324,25 +324,50 @@ aside h4 {
 
 .footerSection{
   display: block;
-
-  margin-left: 40px;
+  margin-top: 30px;
+  margin-left: 73px;
 }
 
 .footerBorderLine{
-  display: block;
+    display: block;
     border-bottom: 1px solid #666666;
     border-top: 2px solid #666666;
- 
     height: 1px;
     margin-top: 0;
     width: 1200px;
     margin-left: 0px;
-    margin-right: auto;
     
 }
 .footerLogo{
   display: block;
-  float: left;
   margin-left: 0px;
   margin-top: 3px;
+  margin-bottom: 10px;
+  
+}
+
+.logoFooter{
+  width: 184px;
+  height: 33px;
+}
+
+.gridContainer{
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+  grid-column-gap: 110px;
+  grid-row-gap: 10px;
+
+}
+
+.gridTitles{
+  color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.gridItems{
+  font-size: 14px;
+
 }
