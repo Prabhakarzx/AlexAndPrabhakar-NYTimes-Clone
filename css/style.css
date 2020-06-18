@@ -274,7 +274,8 @@ h5 {
   max-width: 272px;
   cursor: pointer;
 }
-.figWrapper p:hover{
+
+.figWrapper p:hover,.rightColumn p:hover{
   color: #999999; 
 }
 
@@ -320,6 +321,8 @@ aside h4 {
   color: #121212;
   margin-left: 10px;
   font: bold;
+  cursor: pointer;
+
 }
 
 .rightColumn h4{
