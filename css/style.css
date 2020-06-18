@@ -370,14 +370,15 @@ aside h4 {
 
 .gridItems{
   font-size: 13px;
-
+  cursor: pointer;
 }
 
-.theFooterContainer{
+.footerContainer{
   display: flex;
+  flex-wrap: wrap;
 }
 .footerAside{
-  border-left: 1px solid #999999;
+  border-left: 1px solid rgb(226, 226, 226);
   margin-top: 15px;
   margin-left: 60px;
 }
@@ -388,7 +389,7 @@ aside h4 {
 }
 
 .footerAside ul{
-  margin-left: 5px;
+  margin-left: 12px;
   padding-left: 10px;
   list-style-type: none;
   margin-top: 0;
@@ -404,17 +405,63 @@ aside h4 {
 
 .footerAside li p{
   font-size: 11px;
-  margin: 0;
-  
-
+  margin-top: 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
 }
 
+.news{
+  margin-top:15px;
+  margin-left: 15px;
+  font-size: 11px;
+}
+
+.news li{
+  margin-top:7px;
+}
+
+.mobile{
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 15px;
+  font-size: 11px;
+  padding-top: 0px;
+}
+
+.mobile li{
+  margin-top:7px;
+
+}
 
 .footerAside a{
   text-decoration: none;
   color: #000;
+  margin-top: 7px;
 }
 
-.footerAside a:hover{
+.footerAside a:hover,
+.gridItems a:hover,
+.footerAside li p:hover,
+.info a:hover{
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.info{
+  border-top: 1px solid rgb(226, 226, 226);
+  width: 1200px;
+  display: flex;  
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.info li{
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+
+.info a{
+  color: #666;
+  font-size: 11px;
+  text-decoration: none; 
 }
