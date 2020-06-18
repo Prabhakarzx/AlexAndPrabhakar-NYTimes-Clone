@@ -15,6 +15,7 @@ header {
   justify-content: space-between;
   position: fixed;
   padding: 4px 15px 2px 15px;
+  z-index: 2;
 }
 
 .header-icons {
@@ -487,6 +488,8 @@ top: 1500px;
 padding: 20px;
 margin: 10px;
 transform: scale(0.6);
+z-index: 1;
+
 }
 
 .hrLine{
@@ -520,6 +523,7 @@ transform: scale(0.6);
     width: 150px;
     object-fit: contain;
     align-self: flex-start;
+    
 }
 
 .editorsPicsSideTitle{
