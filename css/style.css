@@ -360,15 +360,16 @@ aside h4 {
 
 }
 
-.gridTitles{
+.gridTitles, aside li h5{
   color: rgb(51, 51, 51);
     font-size: 13px;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .gridItems{
-  font-size: 14px;
+  font-size: 13px;
 
 }
 
@@ -377,7 +378,7 @@ aside h4 {
 }
 .footerAside{
   border-left: 1px solid #999999;
-  
+  margin-top: 15px;
   margin-left: 60px;
 }
 
@@ -390,20 +391,30 @@ aside h4 {
   margin-left: 5px;
   padding-left: 10px;
   list-style-type: none;
+  margin-top: 0;
 }
 .footerAside li{
   display: flex;
   align-items: center;
   list-style-type: none;
-align-items: center;
-
-
-  
 }
+.footerAside li strong{
+  margin-left:5px;
+}
+
+.footerAside li p{
+  font-size: 11px;
+  margin: 0;
+  
+
+}
+
+
 .footerAside a{
   text-decoration: none;
   color: #000;
 }
+
 .footerAside a:hover{
   text-decoration: underline;
 }
