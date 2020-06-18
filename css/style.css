@@ -235,6 +235,23 @@ h5 {
   font-size: 13px;
   color: #888888;
 }
+
+.version{
+  font-size: 11px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+
+.version a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.version a:hover{
+  text-decoration: none;
+}
+
+
+
 .moreArticles {
   display: flex;
   justify-content: space-between;
