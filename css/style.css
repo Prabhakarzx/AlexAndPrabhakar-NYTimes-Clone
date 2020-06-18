@@ -265,14 +265,19 @@ h5 {
   border-top: 1px solid #333333;
 }
 
-.figWrapper {
+.figWrapper  {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.figure {
+.figWrapper .figure {
   max-width: 272px;
+  cursor: pointer;
 }
+.figWrapper p:hover{
+  color: #999999; 
+}
+
 .figure img {
   width: 272px;
   height: 181px;
