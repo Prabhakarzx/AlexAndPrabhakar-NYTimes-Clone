@@ -534,7 +534,7 @@ aside li h5 {
   border-color: rgb(50, 104, 145);
   border-image: initial;
   border-radius: 3px;
-  padding: 5px0;
+  padding: 5px 0;
   transition: background-color 0.6s ease 0s;
 }
 
@@ -544,7 +544,7 @@ aside li h5 {
   margin-right: 16px;
   width: calc(100% - 40px);
   max-width: 300px;
-  padding: 0 1rem00;
+  padding: 0 1rem 0 0;
 }
 
 .figure p:nth-child(1) {
@@ -567,8 +567,7 @@ aside li h5 {
 
 .version a:hover,
 .authorInfo a:hover,
-.paragraphs a:hover 
- {
+.paragraphs a:hover{
   text-decoration: none;
 }
 
@@ -585,4 +584,3 @@ aside li h5 {
   text-decoration: underline;
   cursor: pointer;
 }
-
