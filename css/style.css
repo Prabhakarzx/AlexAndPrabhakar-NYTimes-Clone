@@ -483,7 +483,7 @@ aside li h5 {
 position: absolute;
 float: right;
 flex: 45%;
-left: 900px;
+right: 0px;
 top: 1500px;
 padding: 20px;
 margin: 10px;
@@ -508,13 +508,8 @@ z-index: 1;
 }
 .singlePostEditorsPickSide a{
   text-decoration: none;
-  color:#000;
-  font-size: 20px;
-}
-.singlePostEditorsPickSide > div{
-  
-  line-height: 30px;
-  font-size: 20px;
+  color: #333333;
+  font-size: 24px;
 }
 
 .editorPickPostImg{
@@ -527,8 +522,7 @@ z-index: 1;
 }
 
 .editorsPicsSideTitle{
-margin: auto 0 auto 10px;
-font-size: 20px;
+  margin-top: 20px;
 }
 .titleSideBar{
   font-size: 20px;
