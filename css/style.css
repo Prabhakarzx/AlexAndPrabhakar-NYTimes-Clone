@@ -465,7 +465,7 @@ aside li h5 {
   width: 1200px;
   display: flex;
   list-style-type: none;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .info li {
@@ -556,5 +556,30 @@ flex-wrap: wrap;
 
 }
 .buttonDiv{
+
+}
+
+.fixedFooter ul{
+  list-style-type: none;
+  display: flex;
+  border-top: 1px solid #000;
+  height: 55px;
+  position:fixed;
+  margin-bottom:0;
+  bottom:0;
+  background-color: white;
+  width:100%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 190px;
+  font-size: 14px;
+}
+
+.fixedFooter li:nth-child(2){
+      width: 80px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 11px;
 
 }
