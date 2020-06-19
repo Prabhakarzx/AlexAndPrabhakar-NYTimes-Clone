@@ -1,8 +1,8 @@
 # AlexAndPrabhakar-NYTimes-Clone Project
-This is a collaborative project of Prabhakar and Alex. It shows the uses of flex, floats and positioning and the box model
+This is a collaborative project of Prabhakar and Alex. It shows the uses of flex, floats and grid positioning and the box model.
 
 
-![screenshot](images/screenshot.PNG)
+![screenshot](images/SiteScreenshot.png)
 
 In this task we were required to create a clone of New Yorrk Times's Article page using the best practices of HTML AND CSS with GitHub process flow.
 
@@ -13,7 +13,7 @@ In this task we were required to create a clone of New Yorrk Times's Article pag
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/Prabhakarzx/AlexAndPrabhakar-NYTimes-Clone/8224ab9948b3b76a60fb91a959dba115fdb99884/index.html)
 
 
 ## Authors
@@ -21,8 +21,7 @@ In this task we were required to create a clone of New Yorrk Times's Article pag
 👤 Alexandre Bouhid
 
 - Github: [@githubhandle](https://github.com/abouhid)
-- Twitter:
-- LinkedIn:
+- LinkedIn:https://www.linkedin.com/in/alexandrebouhid/
 
 👤 Prabhakar Pandey
 
@@ -34,7 +33,7 @@ In this task we were required to create a clone of New Yorrk Times's Article pag
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]()
+Feel free to check the [issues page](https://github.com/Prabhakarzx/AlexAndPrabhakar-NYTimes-Clone/issues)
 
 ## Show your support
 
