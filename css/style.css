@@ -157,6 +157,7 @@ main {
   color: #333333;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
+
 .paragraphs h1,
 h2,
 h3,
@@ -165,10 +166,10 @@ h5 {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
-.theory{
-  width:100%;
+.theory {
+  width: 100%;
   height: 752px;
-  border: none; 
+  border: none;
   overflow: hidden;
 }
 
@@ -192,6 +193,7 @@ h5 {
   margin-bottom: 0px;
   font-size: 15px;
 }
+
 .thanksNYT a {
   margin-bottom: 18.72px;
   text-decoration: none;
@@ -203,6 +205,7 @@ h5 {
 .paragraphs a {
   color: rgb(50, 104, 145);
 }
+
 .paragraphs a:hover {
   text-decoration: none;
 }
@@ -211,7 +214,8 @@ h5 {
   width: 600px;
   height: 315px;
   margin-top: 30px;
-  border:none;
+  border: none;
+
 }
 
 .embCaps {
@@ -220,6 +224,7 @@ h5 {
   line-height: 1.25rem;
   color: #666666;
 }
+
 .embCaps span {
   font-size: 13px;
   color: #888888;
@@ -238,6 +243,7 @@ h5 {
   color: #666666;
   line-height: 1.25rem;
 }
+
 .bicepCaps span {
   font-size: 13px;
   color: #888888;
@@ -253,6 +259,7 @@ h5 {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .version a:hover {
   text-decoration: none;
 }
@@ -275,6 +282,7 @@ h5 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .figWrapper .figure {
   max-width: 272px;
   cursor: pointer;
@@ -284,6 +292,7 @@ h5 {
 .rightColumn p:hover {
   color: #999999;
 }
+
 .rightColumn a {
   text-decoration: none;
   color: #000;
@@ -353,6 +362,7 @@ aside h4 {
   width: 1200px;
   margin-left: 0px;
 }
+
 .footerLogo {
   display: block;
   margin-left: 0px;
@@ -391,6 +401,7 @@ aside li h5 {
   display: flex;
   flex-wrap: wrap;
 }
+
 .footerAside {
   border-left: 1px solid rgb(226, 226, 226);
   margin-top: 12px;
@@ -408,11 +419,13 @@ aside li h5 {
   list-style-type: none;
   margin-top: 0;
 }
+
 .footerAside li {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 .footerAside li strong {
   margin-left: 5px;
 }
@@ -455,7 +468,7 @@ aside li h5 {
 .gridItems a:hover,
 .footerAside li p:hover,
 .info a:hover,
-.singlePostEditorsPickSide a:hover{
+.singlePostEditorsPickSide a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -479,96 +492,101 @@ aside li h5 {
   text-decoration: none;
 }
 
-.editorsPickAside{
-position: absolute;
-float: right;
-flex: 45%;
-left: 900px;
-top: 1500px;
-padding: 20px;
-margin: 10px;
-transform: scale(0.6);
-z-index: 1;
+.editorsPickAside {
+  position: absolute;
+  float: right;
+  flex: 45%;
+  left: 900px;
+  top: 1500px;
+  padding: 20px;
+  margin: 10px;
+  transform: scale(0.6);
+  z-index: 1;
 
 }
 
-.hrLine{
+.hrLine {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   border-top: 1px solid #e2e2e2;
 }
-.postEditorsPickSide{
-  
+
+.postEditorsPickSide {
+
   flex-wrap: wrap-reverse;
 }
-.singlePostEditorsPickSide{
+
+.singlePostEditorsPickSide {
   display: flex;
   width: 350px;
 }
-.singlePostEditorsPickSide a{
+
+.singlePostEditorsPickSide a {
   text-decoration: none;
-  color:#000;
+  color: #000;
   font-size: 20px;
 }
-.singlePostEditorsPickSide > div{
-  
+
+.singlePostEditorsPickSide>div {
+
   line-height: 30px;
   font-size: 20px;
 }
 
-.editorPickPostImg{
+.editorPickPostImg {
   display: block;
   margin: 20px 30px 0 0;
-    width: 150px;
-    object-fit: contain;
-    align-self: flex-start;
-    
+  width: 150px;
+  object-fit: contain;
+  align-self: flex-start;
+
 }
 
-.editorsPicsSideTitle{
-margin: auto 0 auto 10px;
-font-size: 20px;
+.editorsPicsSideTitle {
+  margin: auto 0 auto 10px;
+  font-size: 20px;
 }
-.titleSideBar{
+
+.titleSideBar {
   font-size: 20px;
 }
 
 
 
-.buttonAndSocial{
+.buttonAndSocial {
   display: flex;
-flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 600px;
-    margin-bottom: 20px;
-    
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  margin-bottom: 20px;
+
 }
 
-.ReadCommentButton{
+.ReadCommentButton {
   background-color: rgb(86, 123, 149);
-    color: white;
-    display: block;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 0.8125rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    line-height: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-transform: uppercase;
-    width: 100%;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(50, 104, 145);
-    border-image: initial;
-    border-radius: 3px;
-    padding: 5px 0px;
-    transition: background-color 0.6s ease 0s;
+  color: white;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 5px 0px;
+  transition: background-color 0.6s ease 0s;
 }
 
-.buttonDiv{
+.buttonDiv {
   color: rgb(153, 153, 153);
   display: inline;
   margin-right: 16px;
