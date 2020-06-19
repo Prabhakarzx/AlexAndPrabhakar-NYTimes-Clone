@@ -542,25 +542,37 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 600px;
+    margin-bottom: 20px;
     
 }
 
 .ReadCommentButton{
-  background-color:blue;
-  width: auto;
-  color: #eee;
-  padding-left: 40px;
-  padding-right: 30px;
-
+  background-color: rgb(86, 123, 149);
+    color: white;
+    display: block;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+    border-image: initial;
+    border-radius: 3px;
+    padding: 5px 0px;
+    transition: background-color 0.6s ease 0s;
 }
 
-.socialShare{
-  display: flex;
-
-  color: #000;
-  justify-content: space-between;
-
-}
 .buttonDiv{
-
+  color: rgb(153, 153, 153);
+  display: inline;
+  margin-right: 16px;
+  width: calc(100% - 40px);
+  max-width: 300px;
+  padding: 0px 1rem 0px 0px;
 }
