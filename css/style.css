@@ -533,3 +533,34 @@ font-size: 20px;
 .titleSideBar{
   font-size: 20px;
 }
+
+
+
+.buttonAndSocial{
+  display: flex;
+flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    
+}
+
+.ReadCommentButton{
+  background-color:blue;
+  width: auto;
+  color: #eee;
+  padding-left: 40px;
+  padding-right: 30px;
+
+}
+
+.socialShare{
+  display: flex;
+
+  color: #000;
+  justify-content: space-between;
+
+}
+.buttonDiv{
+
+}
