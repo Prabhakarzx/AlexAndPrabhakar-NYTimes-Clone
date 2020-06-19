@@ -270,11 +270,6 @@ h5 {
   cursor: pointer;
 }
 
-.figWrapper p:hover,
-.rightColumn p:hover {
-  color: #999999;
-}
-
 .rightColumn a {
   text-decoration: none;
   color: #000;
@@ -283,24 +278,6 @@ h5 {
 .figure img {
   width: 272px;
   height: 181px;
-}
-
-.figure p:nth-child(1) {
-  text-align: right;
-  font-size: 10px;
-  margin-top: 3px;
-  color: #999999;
-}
-
-.figure p:nth-child(2) {
-  font-size: 18px;
-  margin-top: 3px;
-  margin-bottom: 0;
-}
-
-.figure p:nth-child(3) {
-  font-size: 11px;
-  color: #999999;
 }
 
 .editors,
@@ -314,16 +291,7 @@ aside h4 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
-.rightColumn p {
-  border-top: 1px solid #e2e2e2;
-  padding-top: 9px;
-  font-size: 1.1875rem;
-  line-height: 1.4375rem;
-  color: #121212;
-  margin-left: 10px;
-  font: bold;
-  cursor: pointer;
-}
+
 
 .rightColumn h4 {
   margin-left: 10px;
@@ -431,7 +399,6 @@ aside li h5 {
 
 .mobile {
   border-top: 1px solid rgb(226, 226, 226);
-  padding-top: 15px;
   font-size: 11px;
   padding-top: 0;
 }
@@ -511,7 +478,6 @@ aside li h5 {
   margin: auto 0 auto 10px;
   font-size: 20px;
   margin-top: 20px;
-
 }
 
 .titleSideBar {
@@ -583,15 +549,28 @@ aside li h5 {
   padding: 0 1rem00;
 }
 
-.version a:hover {
-  text-decoration: none;
+.figure p:nth-child(1) {
+  text-align: right;
+  font-size: 10px;
+  margin-top: 3px;
+  color: #999;
 }
 
-.authorInfo a:hover {
-  text-decoration: none;
+.figure p:nth-child(2) {
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 0;
 }
 
-.paragraphs a:hover {
+.figure p:nth-child(3) {
+  font-size: 11px;
+  color: #999;
+}
+
+.version a:hover,
+.authorInfo a:hover,
+.paragraphs a:hover 
+ {
   text-decoration: none;
 }
 
@@ -602,4 +581,9 @@ aside li h5 {
 .singlePostEditorsPickSide a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.figWrapper p:hover,
+.rightColumn p:hover {
+  color: #999;
 }
