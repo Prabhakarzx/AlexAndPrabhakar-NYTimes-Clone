@@ -291,8 +291,6 @@ aside h4 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
-
-
 .rightColumn h4 {
   margin-left: 10px;
 }
@@ -574,6 +572,11 @@ aside li h5 {
   text-decoration: none;
 }
 
+.figWrapper p:hover,
+.rightColumn p:hover {
+  color: #999;
+}
+
 .footerAside a:hover,
 .gridItems a:hover,
 .footerAside li p:hover,
@@ -583,7 +586,3 @@ aside li h5 {
   cursor: pointer;
 }
 
-.figWrapper p:hover,
-.rightColumn p:hover {
-  color: #999;
-}
