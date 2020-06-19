@@ -65,13 +65,11 @@ header {
 
 /* main */
 main {
-  /* background-color: pink; */
   display: flex;
   justify-content: center;
 }
 
 .content {
-  /* background-color: greenyellow; */
   display: flex;
   flex-direction: column;
   width: 945px;
