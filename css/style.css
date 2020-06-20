@@ -103,7 +103,7 @@ main {
 }
 
 .figCaption {
-  color: #666666;
+  color: #666;
   margin-top: 10px;
   width: 700px;
   font-size: 15px;
@@ -111,7 +111,7 @@ main {
 }
 
 .figCaption span {
-  color: #888888;
+  color: #888;
   font-size: 13px;
 }
 
@@ -122,13 +122,21 @@ main {
 .authorInfo,
 .authorInfo a {
   align-self: flex-start;
-  color: #333333;
+  color: #333;
   font-size: 15px;
   font-weight: bold;
 }
 
-.authorInfo a:hover {
+.thanksNYT a {
+  margin-bottom: 18.72px;
   text-decoration: none;
+  color: rgb(50, 104, 145);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.paragraphs a {
+  color: rgb(50, 104, 145);
 }
 
 .articleText {
@@ -146,7 +154,7 @@ main {
   height: 35px;
   font-size: 13px;
   align-items: center;
-  color: #333333;
+  color: #333;
 }
 
 .icons i {
@@ -162,7 +170,7 @@ main {
   font-size: 1.25rem;
   line-height: 1.875rem;
   margin-bottom: 0.9375rem;
-  color: #333333;
+  color: #333;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
@@ -181,10 +189,6 @@ h5 {
   overflow: hidden;
 }
 
-.paragraphs a:hover {
-  text-decoration: none;
-}
-
 .thanksNYtLine {
   border: 0.5px solid rgb(204, 204, 204);
   width: 15%;
@@ -198,24 +202,8 @@ h5 {
 }
 
 .thanksNYT h3 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-size: 15px;
-}
-
-.thanksNYT a {
-  margin-bottom: 18.72px;
-  text-decoration: none;
-  color: rgb(50, 104, 145);
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.paragraphs a {
-  color: rgb(50, 104, 145);
-}
-
-.paragraphs a:hover {
-  text-decoration: none;
 }
 
 .embedded {
@@ -223,19 +211,18 @@ h5 {
   height: 315px;
   margin-top: 30px;
   border: none;
-
 }
 
 .embCaps {
   margin-top: 7px;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  color: #666666;
+  color: #666;
 }
 
 .embCaps span {
   font-size: 13px;
-  color: #888888;
+  color: #888;
   margin-left: 5px;
 }
 
@@ -248,29 +235,25 @@ h5 {
 
 .bicepCaps p {
   font-size: 16px;
-  margin-bottom: 0px;
-  color: #666666;
+  margin-bottom: 0;
+  color: #666;
   line-height: 1.25rem;
 }
 
 .bicepCaps span {
   font-size: 13px;
-  color: #888888;
+  color: #888;
 }
 
 .version {
   font-size: 11px;
-  color: #666666;
+  color: #666;
   margin-bottom: 25px;
 }
 
 .version a {
   text-decoration: underline;
   cursor: pointer;
-}
-
-.version a:hover {
-  text-decoration: none;
 }
 
 .moreArticles {
@@ -283,7 +266,7 @@ h5 {
 .leftColumn,
 .editors {
   width: 855px;
-  border-top: 1px solid #333333;
+  border-top: 1px solid #333;
 }
 
 .figWrapper {
@@ -297,11 +280,6 @@ h5 {
   cursor: pointer;
 }
 
-.figWrapper p:hover,
-.rightColumn p:hover {
-  color: #999999;
-}
-
 .rightColumn a {
   text-decoration: none;
   color: #000;
@@ -312,32 +290,14 @@ h5 {
   height: 181px;
 }
 
-.figure p:nth-child(1) {
-  text-align: right;
-  font-size: 10px;
-  margin-top: 3px;
-  color: #999999;
-}
-
-.figure p:nth-child(2) {
-  font-size: 18px;
-  margin-top: 3px;
-  margin-bottom: 0px;
-}
-
-.figure p:nth-child(3) {
-  font-size: 11px;
-  color: #999999;
-}
-
 .editors,
 aside h4 {
-  color: #333333;
+  color: #333;
 }
 
 .rightColumn {
   width: 315px;
-  border-top: 1px solid #333333;
+  border-top: 1px solid #333;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   margin-left: 30px;
 }
@@ -373,12 +333,12 @@ aside h4 {
   height: 1px;
   margin-top: 0;
   width: 1200px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .footerLogo {
   display: block;
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 3px;
   margin-bottom: 10px;
 }
@@ -422,13 +382,13 @@ aside li h5 {
 }
 
 .footerAside h5 {
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .footerAside ul {
   margin-left: 12px;
-  padding-left: 0px;
+  padding-left: 0;
   list-style-type: none;
   margin-top: 0;
 }
@@ -462,9 +422,8 @@ aside li h5 {
 
 .mobile {
   border-top: 1px solid rgb(226, 226, 226);
-  padding-top: 15px;
   font-size: 11px;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .mobile li {
@@ -475,15 +434,6 @@ aside li h5 {
   text-decoration: none;
   color: #000;
   margin-top: 7px;
-}
-
-.footerAside a:hover,
-.gridItems a:hover,
-.footerAside li p:hover,
-.info a:hover,
-.singlePostEditorsPickSide a:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .info {
@@ -505,17 +455,16 @@ aside li h5 {
   text-decoration: none;
 }
 
-.editorsPickAside{
-position: absolute;
-float: right;
-flex: 45%;
-right: 0px;
-top: 1500px;
-padding: 20px;
-margin: 10px;
-transform: scale(0.6);
-z-index: 1;
-
+.editorsPickAside {
+  position: absolute;
+  float: right;
+  flex: 45%;
+  right: 0;
+  top: 1500px;
+  padding: 20px;
+  margin: 10px;
+  transform: scale(0.6);
+  z-index: 1;
 }
 
 .hrLine {
@@ -526,7 +475,6 @@ z-index: 1;
 }
 
 .postEditorsPickSide {
-
   flex-wrap: wrap-reverse;
 }
 
@@ -537,7 +485,7 @@ z-index: 1;
 
 .singlePostEditorsPickSide a {
   text-decoration: none;
-  color: #333333;
+  color: #333;
   font-size: 24px;
 }
 
@@ -550,19 +498,14 @@ z-index: 1;
 }
 
 .editorsPicsSideTitle {
-  margin-top: 20px;
-}
-
-.editorsPicsSideTitle {
   margin: auto 0 auto 10px;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .titleSideBar {
   font-size: 20px;
 }
-
-
 
 .buttonAndSocial {
   display: flex;
@@ -571,33 +514,32 @@ z-index: 1;
   justify-content: space-between;
   width: 600px;
   margin-bottom: 20px;
-
 }
 
-
-.fixedFooter ul{
+.fixedFooter ul {
   list-style-type: none;
   display: flex;
   border-top: 1px solid #000;
   height: 40px;
-  position:fixed;
-  margin-bottom:0;
-  bottom:0;
+  position: fixed;
+  margin-bottom: 0;
+  bottom: 0;
   background-color: white;
-  width:100%;
+  width: 100%;
   align-items: center;
   justify-content: space-evenly;
   padding-left: 190px;
   font-size: 14px;
 }
 
-.fixedFooter li:nth-child(2){
-      width: 80px;
-      display: flex;
-      justify-content: space-between;
-      font-weight: bold;
-      font-size: 11px;
+.fixedFooter li:nth-child(2) {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 11px;
 }
+
 .ReadCommentButton {
   cursor: pointer;
   background-color: rgb(86, 123, 149);
@@ -617,7 +559,7 @@ z-index: 1;
   border-color: rgb(50, 104, 145);
   border-image: initial;
   border-radius: 3px;
-  padding: 5px 0px;
+  padding: 5px 0;
   transition: background-color 0.6s ease 0s;
 }
 
@@ -627,5 +569,43 @@ z-index: 1;
   margin-right: 16px;
   width: calc(100% - 40px);
   max-width: 300px;
-  padding: 0px 1rem 0px 0px;
+  padding: 0 1rem 0 0;
+}
+
+.figure p:nth-child(1) {
+  text-align: right;
+  font-size: 10px;
+  margin-top: 3px;
+  color: #999;
+}
+
+.figure p:nth-child(2) {
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.figure p:nth-child(3) {
+  font-size: 11px;
+  color: #999;
+}
+
+.version a:hover,
+.authorInfo a:hover,
+.paragraphs a:hover {
+  text-decoration: none;
+}
+
+.figWrapper p:hover,
+.rightColumn p:hover {
+  color: #999;
+}
+
+.footerAside a:hover,
+.gridItems a:hover,
+.footerAside li p:hover,
+.info a:hover,
+.singlePostEditorsPickSide a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

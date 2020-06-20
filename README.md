@@ -21,8 +21,7 @@ In this task we were required to create a clone of New Yorrk Times's Article pag
 👤 Alexandre Bouhid
 
 - Github: [@githubhandle](https://github.com/abouhid)
-- Twitter:
-- LinkedIn:
+- LinkedIn:https://www.linkedin.com/in/alexandrebouhid/
 
 👤 Prabhakar Pandey
 
