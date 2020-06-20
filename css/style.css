@@ -22,7 +22,6 @@ header {
   color: #000;
   align-items: center;
   font-size: 14.25px;
-
 }
 
 .header-icons i {
@@ -40,7 +39,6 @@ header {
 .cosmos a {
   text-decoration: none;
   color: #000;
-
 }
 
 .logo {
@@ -307,7 +305,6 @@ aside h4 {
   line-height: 1.4375rem;
   color: #121212;
   margin-left: 10px;
-  font: bold;
   cursor: pointer;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-style: normal;
