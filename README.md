@@ -13,7 +13,7 @@ In this task we were required to create a clone of New Yorrk Times's Article pag
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Prabhakarzx/AlexAndPrabhakar-NYTimes-Clone/8224ab9948b3b76a60fb91a959dba115fdb99884/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Prabhakarzx/AlexAndPrabhakar-NYTimes-Clone/fbb60507a6efa6fc5b8d714dfcb8d050083103dc/index.html)
 
 
 ## Authors

@@ -22,7 +22,7 @@ header {
   color: #000;
   align-items: center;
   font-size: 14.25px;
-  
+
 }
 
 .header-icons i {
@@ -36,13 +36,11 @@ header {
 .cosmos {
   display: inline;
 }
-.cosmos a{
+
+.cosmos a {
   text-decoration: none;
   color: #000;
 
-}
-.cosmos a:hover{
-  text-decoration: underline;
 }
 
 .logo {
@@ -594,6 +592,10 @@ aside li h5 {
 .authorInfo a:hover,
 .paragraphs a:hover {
   text-decoration: none;
+}
+
+.cosmos a:hover {
+  text-decoration: underline;
 }
 
 .figWrapper p:hover,
