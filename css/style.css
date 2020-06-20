@@ -528,6 +528,7 @@ aside li h5 {
   justify-content: space-evenly;
   padding-left: 190px;
   font-size: 14px;
+  z-index: 3;
 }
 
 .fixedFooter li:nth-child(2) {
