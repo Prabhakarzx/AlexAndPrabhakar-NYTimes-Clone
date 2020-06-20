@@ -22,6 +22,7 @@ header {
   color: #000;
   align-items: center;
   font-size: 14.25px;
+  
 }
 
 .header-icons i {
@@ -29,10 +30,19 @@ header {
   height: 16px;
   width: 16px;
   padding: 8px 9px 9px;
+  cursor: pointer;
 }
 
 .cosmos {
   display: inline;
+}
+.cosmos a{
+  text-decoration: none;
+  color: #000;
+
+}
+.cosmos a:hover{
+  text-decoration: underline;
 }
 
 .logo {
@@ -329,6 +339,7 @@ aside h4 {
   width: 315px;
   border-top: 1px solid #333333;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  margin-left: 30px;
 }
 
 .rightColumn p {
@@ -340,6 +351,9 @@ aside h4 {
   margin-left: 10px;
   font: bold;
   cursor: pointer;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .rightColumn h4 {
